@@ -11,4 +11,4 @@ La forma de ejecutar localmente es:
 ## URLs
 
 * https://github.com/Chechomon/PENA-ARSW-T2
-* https://salty-cove-91657.herokuapp.com/
+* https://pena-arsw-t2.herokuapp.com/
