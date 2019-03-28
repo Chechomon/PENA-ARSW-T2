@@ -1,40 +1,9 @@
-# java-getting-started
+# Parcial T2
 
-A barebones Java app, which can easily be deployed to Heroku.
+El diseño de esta aplicacion implementa el principio open closed por lo que presenta una gran facilidad al momento de extender ya que se utilizaron abstracciones al momento de la creacion, lo que permite un bajo acoplamiento por ejemplo en el caso de la persistencia hay una interface llamada WeatherAppPersistence, por lo tanto al momento de cambiar de persistencia (en memoria, base de datos, etc) solo se implementa esta clase al nuevo modelo de persistencia y gracias a la inyeccion de dependencias implementada con las anotaciones en springboot solo cambiando una anotacion se cambia la persistencia lo cual lo hace altamente extendible. 
 
-This application supports the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article - check it out.
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Running Locally
-
-Make sure you have Java and Maven installed.  Also, install the [Heroku CLI](https://cli.heroku.com/).
-
-```sh
-$ git clone https://github.com/heroku/java-getting-started.git
-$ cd java-getting-started
-$ mvn install
-$ heroku local:start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-If you're going to use a database, ensure you have a local `.env` file that reads something like this:
-
-```
-JDBC_DATABASE_URL=jdbc:postgresql://localhost:5432/java_database_name
-```
-
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-## Documentation
-
-For more information about using Java on Heroku, see these Dev Center articles:
-
-- [Java on Heroku](https://devcenter.heroku.com/categories/java)
+La forma de ejecutar localmente es:
+* Ejecutar la aplicacion
+* Entrar a un navegador
+* Colocar la url localhost:5000/weather
+* Por ultimo agregas a la url la ciudad que quieres buscar. Por ejemplo: localhost:5000/weather/bogota
