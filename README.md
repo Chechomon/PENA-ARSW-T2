@@ -7,3 +7,8 @@ La forma de ejecutar localmente es:
 * Entrar a un navegador
 * Colocar la url localhost:5000/weather
 * Por ultimo agregas a la url la ciudad que quieres buscar. Por ejemplo: localhost:5000/weather/bogota
+
+## URLs
+
+https://github.com/Chechomon/PENA-ARSW-T2
+https://salty-cove-91657.herokuapp.com/
