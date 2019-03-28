@@ -5,8 +5,8 @@ El diseño de esta aplicacion implementa el principio open closed por lo que pre
 La forma de ejecutar localmente es:
 * Ejecutar la aplicacion
 * Entrar a un navegador
-* Colocar la url localhost:5000/weather
-* Por ultimo agregas a la url la ciudad que quieres buscar. Por ejemplo: localhost:5000/weather/bogota
+* Colocar la url localhost:5000
+* Por ultimo agregas la ciudad que quieres consultar.
 
 ## URLs
 
