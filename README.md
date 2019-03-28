@@ -8,6 +8,8 @@ La forma de ejecutar localmente es:
 * Colocar la url localhost:5000
 * Por ultimo agregas la ciudad que quieres consultar.
 
+Sugerencia: Cuando este probando la aplicacion desde heroku, ejecute el proyecto localmente y dejelo corriendo, para que asi haga la funcionalidad de busqueda a la perfeccion.
+
 ## URLs
 
 * https://github.com/Chechomon/PENA-ARSW-T2
